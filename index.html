@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Mountains</title>
+    
+   
+</head>
+<body>
+    <nav class="navbar">
+       <h1 class="logo">Go To The Mountains</h1>
+       <ul class="nav-links">
+        <li ><a href="#"class="active" >Home</a></li>
+        <li><a href="#" class="ctnn">Tours</a></li>
+        <li><a href="#" class="ctnn">Esplore</a></li>
+        <li><a href="#" class="ctnn">Abut</a></li>
+        <li><a href="#" class="ctn">Contact</a></li>
+       </ul>
+       <img src="images/menu-btn.png" alt="" class="menu-btn"> 
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>Good Mood Good Life</h1>
+            <a href="#" class="ctng">Learn More</a>          
+        </div>
+
+    </header>
+    <!-- Events -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/img/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatibus placeat corrupti laborum, deleniti sed?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatibus placeat corrupti laborum, deleniti sed?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+       <div class="explore-content">
+        <h1>EXPLORE THE WORLDs</h1>
+        <div class="line"></div>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus suscipit corporis dolorem eveniet asperiores blanditiis iste impedit voluptatibus, dolorum aut quidem atque! Eveniet, ex illum.</P>
+        <a href="#" class="ctn">Learn More</a>
+       </div> 
+    </section>
+
+    <section class="container-heading">
+        <div class="container">
+            <div class="heading">
+                <h3>Photo <span>Gallery</span></h3>
+            </div>
+            <div class="box">
+
+                <div class="daram">
+                    <img src="images/img/img4.png" alt="">
+                    <img src="images/img/img3.png" alt="">
+                    <img src="images/img2/tj-holowaychuk-dMxqP4jTpo4-unsplash.jpg" alt="">
+                    <img src="images/img2/diggity-dog-gTSIjng_LjQ-unsplash.jpg" alt="">
+                    
+                </div>
+                <div class="daram">
+                    <img src="images/img/img5.png" alt="">
+                    <img src="images/img/img6.png" alt="">
+                    <img src="images/img/danilo-calic-DlgFZG0MvaU-unsplash.jpg" alt="">
+                </div>
+                <div class="daram">
+                    <img src="images/img/img3.png" alt="">
+                    <img src="images/img2/artem-sapegin-8c6eS43iq1o-unsplash.jpg" alt="">
+                    <img src="images/img2/boris-misevic-U7CzxHjnQXo-unsplash.jpg" alt="">
+                    <img src="images/img2/aleks-dahlberg-pVATCBKLH8w-unsplash.jpg" alt="">
+                    
+                   
+                </div>
+                <div class="daram">
+                    <img src="images/img2/pietro-de-grandi-Q5dMq3cKqec-unsplash.jpg" alt="">
+                    <img src="images/img2/daniel-tseng-hw_Kp0BvxAM-unsplash.jpg" alt="">
+                    <img src="images/img/img3.png" alt="">
+                    
+                  
+                </div>
+                <div class="daram">
+                    <img src="images/img2/lara-jornod-Qqbjqxcqh0Q-unsplash.jpg"alt="">
+                    <img src="images/img2/luca-bravo-ESkw2ayO2As-unsplash.jpg" alt="">
+                    <img src="images/img2/michael-DXQB5D1njMY-unsplash.jpg" alt="">
+                                      
+                </div>
+            </div>
+            <div class="btn-container">
+                <a href="#">More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Sagar Barua | Phone: 01856609099 | Email:sagarbarua1010@gmail.com</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
